@@ -128,4 +128,5 @@ ol.center li
 ![Output 3](./images/Output3.png)
 
 # RESULT:
+A html web page is written to display my timetable.
 
