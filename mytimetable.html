@@ -3,16 +3,34 @@
 <head>
 <title>MY TIMETABLE</title>
 <style>
+table,th,td {
+     border:2px solid blue;
+}
+table.center {
+	margin-left: auto;
+    margin-right: auto;
+}
 img {
   display: block;
   margin-left:auto;
   margin-right:auto;
 }
+.center
+{
+	text-align: center;
+    list-style-position: inside;
+}
+ol.center li
+{
+	text-align: left;
+    margin-left:34%;
+}
+
 </style>
 </head>
 <body>
 <img src="https://www.saveetha.ac.in/images/WEB_LOGO-01.png" alt="institute logo" width="600" height="100">
-<table border=2 bgcolor="peachpuff" bordercolor="blue">
+<table class="center" style="background-color:peachpuff">
 	<tr>
 		<th colspan=8 style="text-align:center">TIME TABLE</th>
     </tr>
@@ -65,15 +83,15 @@ img {
         <td colspan=2 style="text-align:center">Web Technology Theory Lab</td>
    </tr>
 </table>
-  <ol type="1">
-    <li>19AI401-Fundamentals of Web Technology</li>
-    <li>19AI301-Python Programming</li>
-    <li>19AI302-Engineering Design And Modeling</li>
-    <li>19AI303-Engineering  Mechanics And Product Development</li>
-    <li>19MA220-19MA221-Mathematics for Artificial Intelligence</li>
-    <li>19EY701-Soft Skills</li>
-    <li>19MC802-Environmental Science</li>
-    <li>ECA051-Mentoring-AD1</li>
+  <ol  class="center">
+    <li style="font-size:20px">19AI401-Fundamentals of Web Technology</li>
+    <li style="font-size:20px">19AI301-Python Programming</li>
+    <li style="font-size:20px">19AI302-Engineering Design And Modeling</li>
+    <li style="font-size:20px">19AI303-Engineering  Mechanics And Product Development</li>
+    <li style="font-size:20px">19MA220-19MA221-Mathematics for Artificial Intelligence</li>
+    <li style="font-size:20px">19EY701-Soft Skills</li>
+    <li style="font-size:20px">19MC802-Environmental Science</li>
+    <li style="font-size:20px">ECA051-Mentoring-AD1</li>
   </ol>
 </body>
 </html>
