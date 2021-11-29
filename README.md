@@ -117,9 +117,15 @@ ol.center li
 
 ## CLIENT SIDE OUTPUT:
 
+![Output 1](./images/Output1.png)
+
 ## SERVER SIDE OUTPUT:
 
+![Output 2](./images/Output2.png)
+
 ## HTML VALIDATOR:
+
+![Output 3](./images/Output3.png)
 
 # RESULT:
 
